@@ -1,0 +1,93 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 1rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 1rem;
+  background-color: #111;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.logo .hub {
+  color: white;
+}
+
+.logo .porn {
+  color: orange;
+  background: white;
+  padding: 0.2rem 0.5rem;
+  margin-left: 0.3rem;
+  border-radius: 5px;
+}
+
+main.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.entry-screen,
+.prank {
+  max-width: 500px;
+  width: 100%;
+  background: #111;
+  padding: 2rem 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 140, 0, 0.4);
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  background-color: orange;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+img {
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+}
+
+.disclaimer {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #ccc;
+  line-height: 1.4;
+}
+
+footer {
+  padding: 1rem;
+  font-size: 0.8rem;
+  color: #666;
+}
